@@ -6,8 +6,6 @@ from schemas import UserCreate, PostCreate, UserUpdate, PostUpdate, UserOut, Pos
 
 app = FastAPI()
 
-app = FastAPI()
-
 def get_db():
     """get_db"""
     db = SessionLocal()
