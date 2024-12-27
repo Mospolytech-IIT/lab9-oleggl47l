@@ -4,8 +4,6 @@ from sqlalchemy.orm import Session
 from models import User, Post
 from schemas import UserCreate, PostCreate, UserUpdate, PostUpdate
 
-app = FastAPI()
-
 # Users
 def create_user(db: Session, user: UserCreate):
     """create_user"""
